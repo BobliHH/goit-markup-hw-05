@@ -135,8 +135,9 @@ body {
 }
 
 .phone-icon {
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
 }
 
 .phone-icon:hover {
@@ -363,6 +364,7 @@ body {
   padding: 0px;
   margin:0px auto 94px;
   color: var(--highlight-color);
+  fill: red;
 }
 
 .customers-logo{
@@ -370,13 +372,12 @@ body {
   height:92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  fill: currentColor;
-  
+  fill: #AFB1B8;
 }
 
 .customers-logo:hover{
-  color: var(--highlight-color);
   border-color: var(--highlight-color);
+  fill: var(--highlight-color);
 }
 
 /* Footer Styling */
