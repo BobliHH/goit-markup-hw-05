@@ -110,7 +110,7 @@ body {
 
 .index-link::after {
   content: "";
-  width: 42px;
+  width: 100%;
   height: 4px;
   background-color: var(--highlight-color);
   position: absolute;
