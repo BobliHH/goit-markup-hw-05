@@ -18,9 +18,11 @@
     <title>Studio</title>
   </head>
   <body>
-    <div class="modal is-hiden" data-modal>
+    <div class="modal is-hidden" data-modal>
       <div class="inner-modal">
-        <button class="close-modal" data-modal-close>x</button>
+        <button class="close-modal" data-modal-close>
+          <img src="./images/close button.svg" alt="close button" />
+        </button>
       </div>
     </div>
     <header class="page-header">
@@ -31,9 +33,11 @@
         <nav>
           <ul class="main-nav-list unstyled-list">
             <li class="main-nav-item">
-              <a class="main-nav-link link" href="index.html">Studio</a>
+              <div class="index-link">
+              <a class="main-nav-link link underline-index" href="index.html">Studio</a>
+              </div>            
             </li>
-            <li class="main-nav-item">
+            <li class="main-nav-item portfolio-link">
               <a class="main-nav-link link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="main-nav-item">
@@ -139,6 +143,12 @@
           <h2 class="title">What we do</h2>
           <ul class="what-we-do-list unstyled-list">
             <li class="what-we-do-list-item">
+              <div class="what-we-do-overlay-container">
+                <div class="what-we-do-overlay">
+                  <p>
+                  DESKTOP APPS
+                  </p>
+                </div>
               <img
                 src="./images/box01.jpg"
                 alt="img of programming"
@@ -147,6 +157,12 @@
               />
             </li>
             <li class="what-we-do-list-item">
+              <div class="what-we-do-overlay-container">
+                <div class="what-we-do-overlay">
+                  <p>
+                  Mobile APPS
+                  </p>
+                </div>
               <img
                 src="./images/box02.jpg"
                 alt="img of aplicatins"
@@ -155,6 +171,12 @@
               />
             </li>
             <li class="what-we-do-list-item">
+              <div class="what-we-do-overlay-container">
+                <div class="what-we-do-overlay">
+                  <p>
+                  DESIGN SOLUTIONS
+                  </p>
+                </div>
               <img
                 src="./images/box03.jpg"
                 alt="img of design"
